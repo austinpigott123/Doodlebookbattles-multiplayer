@@ -1,0 +1,18 @@
+{
+  "name": "ogs-blockheads-room-relay",
+  "version": "0.12.0",
+  "private": true,
+  "description": "Two-player room-code WebSocket relay for Ogs & Blockheads.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js",
+    "test": "node test_relay.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
